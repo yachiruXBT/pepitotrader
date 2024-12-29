@@ -9,7 +9,7 @@ The project simulates buying and selling BTC based on the logs of [Pepito Catto]
 1. Clone the repository
 
 ``` 
-git clone git@github.com:<>/pepitotrader.git
+git clone https://github.com/yachiruXBT/pepitotrader.git
 ```
 
 2. Install dependencies
