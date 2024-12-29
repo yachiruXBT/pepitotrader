@@ -74,11 +74,12 @@ to prune this data set.
 
 # Future Ideas/TODO's
 - Integrate with the live API of [Pepito](https://github.com/Clement87/Pepito-API) for real-time usage.
-- Give a bonus to pepito on his birthday (Aug 4th 2007)
+- Give a bonus to Pepito on his birthday. (Aug 4th 2007)
 - Calculate Max/Min Profit/losses incurred.
+- Clean up code.
 
 # Pépito raw data
 - BTC price source with 1 minute resolution :https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
 - Pepito Cat Adventure logs : https://github.com/Clement87/Pepito-data/blob/main/tweets.json
 
-Thanks to [Clement](https://github.com/Clement87) to diligently collecting the data and making it available for use.
+Thanks to [Clement](https://github.com/Clement87) for diligently collecting the data and making it available for use.
