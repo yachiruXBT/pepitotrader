@@ -41,7 +41,7 @@ pepito_trader.csv
 ```
 node meow.mjs  --initTrading --pepitoTrade
 ```
-- `initTrading` - Flag creates an intermediate file that matches pepitos ins & outs with the closest 1-minute BTC price. 
+- `initTrading` - Flag creates an intermediate file that matches pepitos ins & outs with the closest 1-minute BTC price. If using this flag , please remove `pepito_trader.csv` from `data` directory.
 - `pepitoTrade` - Executes the buy/sell based on the matched price. This creates an equity balance curve. 
 
 You can use the flags independently or in combination. If you update any data files, you need to run them both.
