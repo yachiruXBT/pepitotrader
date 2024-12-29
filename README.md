@@ -41,7 +41,7 @@ pepito_trader.csv
 ```
 node meow.mjs  --initTrading --pepitoTrade
 ```
-- `initTrading` - Flag creates an intermediate file that matches pepitos in & outs with the closest 1-minute BTC price. 
+- `initTrading` - Flag creates an intermediate file that matches pepitos ins & outs with the closest 1-minute BTC price. 
 - `pepitoTrade` - Executes the buy/sell based on the matched price. This creates an equity balance curve. 
 
 You can use the flags independently or in combination. If you update any data files, you need to run them both.
@@ -49,9 +49,9 @@ You can use the flags independently or in combination. If you update any data fi
 # Results
 The script analyzed 23135 logs. Due to some inconsistencies in the data set - we matched 16380 paired events (described below).
 - Total Events: 23135
-- Starting Balance: 9 USD
+- Starting Balance: 9$
 - Trades executed: 16380
-- Closing balance: 158.87
+- Closing balance: 158.87$
 - Returns: 1665.22%
 
 ![](./balanceEquityCurve.png)
@@ -76,6 +76,7 @@ to prune this data set.
 - Integrate with the live API of [Pepito](https://github.com/Clement87/Pepito-API) for real-time usage.
 - Give a bonus to Pepito on his birthday. (Aug 4th 2007)
 - Calculate Max/Min Profit/losses incurred.
+- Currently, the code uses the `created_at` attribute (tweet creation time) - a parser can extract the time out of the text log and translate it.
 - Clean up code.
 
 # Pépito raw data
