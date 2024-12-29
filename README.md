@@ -57,7 +57,7 @@ The script analyzed 23135 logs. Due to some inconsistencies in the data set - we
 ![](./balanceEquityCurve.png)
 
 # Notes
-- The current data (see below) ; has some in-consistencies as not every out is matched to a in message.
+- The current data (see below); has some in-consistencies as not every out is matched to an in message.
 The current calculation skips these inconsistencies and matches the first out to the first in the message.
 Any repetitions on either side or between the two are skipped.
 
@@ -71,6 +71,14 @@ These together comprise a trade. I.e. buy when Pepito goes out and sell when Pep
 - The BTC price data starts from Jan 1, 2012. However, the Pepito logs begin on Nov 13, 2011, so you need
 to prune this data set.
 
+
+# Future Ideas/TODO's
+- Integrate with the live API of [Pepito](https://github.com/Clement87/Pepito-API) for real-time usage.
+- Give a bonus to pepito on his birthday (Aug 4th 2007)
+- Calculate Max/Min Profit/losses incurred.
+
 # Pépito raw data
 - BTC price source with 1 minute resolution :https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
 - Pepito Cat Adventure logs : https://github.com/Clement87/Pepito-data/blob/main/tweets.json
+
+Thanks to [Clement](https://github.com/Clement87) to diligently collecting the data and making it available for use.
