@@ -1,0 +1,21 @@
+{
+  "name": "pepitotrader",
+  "version": "1.0.0",
+  "description": "pepito trades",
+  "main": "meow.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "meow": "node meow.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "canvas": "^3.0.0",
+    "chart.js": "^4.4.7",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "csv-parse": "^5.6.0",
+    "csv-parser": "^3.0.0"
+  }
+}
