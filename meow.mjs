@@ -61,8 +61,8 @@ function createHumanReadableDate(timestamp) {
     return result;
 }
 
-async function pepitoTrades() {
-    let balance = 9.0
+async function pepitoTrades(startingBalance) {
+    let balance = startingBalance
     let tradeCount = 0;
     let balances =[]
     let dates = [];
@@ -229,8 +229,12 @@ const main = async () => {
             await readPepitosAdventures(btcData);
         }
         if (flags.pepitoTrade){
+            let startingBalance = 9.0
             console.log("Begin Trading");
-            pepitoTrades();
+            if(flags.startingBalance){
+                startingBalance = parseInt(flags.startingBalance);
+            }
+            pepitoTrades(startingBalance);
         }
 
     } catch (error) {
