@@ -51,7 +51,7 @@ You can use the flags independently or in combination. If you update any data fi
 The script analyzed 23135 logs. Due to some inconsistencies in the data set - we matched 16380 paired events (described below).
 - Total Events: 23135
 - Starting Balance: 100$
-- Trades executed: 1765.29
+- Trades executed: 16380
 - Closing balance: 158.87$
 - Returns: 1665.25%
 
